@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7557" started-at="2023-06-02T19:52:31Z" finished-at="2023-06-02T19:52:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7557" started-at="2023-06-02T19:52:31Z" finished-at="2023-06-02T19:52:38Z">
+      <class name="testCases.LoginTestCases">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.LoginTestCases@626abbd0]" name="beforeMethod" is-config="true" duration-ms="3397" started-at="2023-06-02T19:52:31Z" finished-at="2023-06-02T19:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginBtnText()[pri:0, instance:testCases.LoginTestCases@626abbd0]" name="verifyLoginBtnText" duration-ms="140" started-at="2023-06-02T19:52:34Z" finished-at="2023-06-02T19:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnText -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.LoginTestCases@626abbd0]" name="afterMethod" is-config="true" duration-ms="141" started-at="2023-06-02T19:52:34Z" finished-at="2023-06-02T19:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.LoginTestCases@626abbd0]" name="beforeMethod" is-config="true" duration-ms="2313" started-at="2023-06-02T19:52:34Z" finished-at="2023-06-02T19:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin_ValidUser()[pri:0, instance:testCases.LoginTestCases@626abbd0]" name="verifyLogin_ValidUser" duration-ms="1364" started-at="2023-06-02T19:52:37Z" finished-at="2023-06-02T19:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_ValidUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.LoginTestCases@626abbd0]" name="afterMethod" is-config="true" duration-ms="173" started-at="2023-06-02T19:52:38Z" finished-at="2023-06-02T19:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
