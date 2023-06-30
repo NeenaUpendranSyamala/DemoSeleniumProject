@@ -26,7 +26,7 @@ public class LoginTestCases extends BaseClass {
 	@Test (enabled = true)
 	public void verifyLogin_ValidUser() {
 		 lp = new LoginPage(driver);
-		lp.performLogin("mngr504589", "ehurega");
+		lp.performLogin(config.getUserName(),config.getPassword());
 		logger.info("Looking for Home PAge title....");
 		if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
 			Assert.assertTrue(true);
